@@ -1,0 +1,9 @@
+int main()
+{
+   int a = 12;
+   a = a + 1;
+   if (a && b)
+
+   return -1; //nihaome
+   char* str = "dfsfsf;
+}

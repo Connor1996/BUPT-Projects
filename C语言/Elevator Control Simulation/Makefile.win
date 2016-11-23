@@ -1,0 +1,40 @@
+# Project: Elevator Control Simulation
+# Makefile created by Dev-C++ 5.9.2
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+OBJ      = main.o input.o output.o control.o queue.o
+LINKOBJ  = main.o input.o output.o control.o queue.o
+LIBS     = -L"D:/Program Files/Dev-Cpp/MinGW32/lib" -L"D:/Program Files/Dev-Cpp/MinGW32/mingw32/lib" -pg -g3
+INCS     = -I"D:/Program Files/Dev-Cpp/MinGW32/include" -I"D:/Program Files/Dev-Cpp/MinGW32/mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW32/lib/gcc/mingw32/4.8.1/include"
+CXXINCS  = -I"D:/Program Files/Dev-Cpp/MinGW32/include" -I"D:/Program Files/Dev-Cpp/MinGW32/mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW32/lib/gcc/mingw32/4.8.1/include" -I"D:/Program Files/Dev-Cpp/MinGW32/lib/gcc/mingw32/4.8.1/include/c++"
+BIN      = "Elevator Control Simulation.exe"
+CXXFLAGS = $(CXXINCS) -ansi -pg -g3
+CFLAGS   = $(INCS) -ansi -pg -g3
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.c
+	$(CC) -c main.c -o main.o $(CFLAGS)
+
+input.o: input.c
+	$(CC) -c input.c -o input.o $(CFLAGS)
+
+output.o: output.c
+	$(CC) -c output.c -o output.o $(CFLAGS)
+
+control.o: control.c
+	$(CC) -c control.c -o control.o $(CFLAGS)
+
+queue.o: queue.c
+	$(CC) -c queue.c -o queue.o $(CFLAGS)

@@ -1,0 +1,43 @@
+RunningTime = 1.19s
+State = RUN  Door = CLOSE Direction =  UP  CurrentFloor = 2  DestinationFloor = 5
+Up Request: 
+Down Request: 
+Floor Request: 5 
+
+RunningTime = 3.20s
+State = RUN  Door = CLOSE Direction =  UP  CurrentFloor = 3  DestinationFloor = 5
+Up Request: 
+Down Request: 
+Floor Request: 5 
+
+RunningTime = 5.21s
+State = RUN  Door = CLOSE Direction =  UP  CurrentFloor = 4  DestinationFloor = 5
+Up Request: 
+Down Request: 
+Floor Request: 5 
+
+RunningTime = 7.22s
+State = RUN  Door = CLOSE Direction =  UP  CurrentFloor = 5  DestinationFloor = 5
+Up Request: 
+Down Request: 
+Floor Request: 5 
+
+RunningTime = 9.23s
+State = STOP Door = OPEN  Direction =  UP  CurrentFloor = 5  DestinationFloor = 5
+Up Request: 
+Down Request: 
+Floor Request: 
+
+RunningTime = 10.76s
+State = STOP Door = CLOSE Direction =  UP  CurrentFloor = 5  DestinationFloor = 5
+STOP TIME = 2.01s
+Up Request: 
+Down Request: 
+Floor Request: 
+
+RunningTime = 11.28s
+State = FREE Door = CLOSE Direction = NONE CurrentFloor = 5  DestinationFloor = 5
+Up Request: 
+Down Request: 
+Floor Request: 
+

@@ -1,0 +1,65 @@
+Starting Symbol:
+	E
+Non Terminal Symbols:
+	E T F E' T' 
+Terminal Symbols:
+	$ num - id ( + * / ) 
+Production Rules:
+	E -> T E' | 
+	T -> F T' | 
+	F -> id | ( E ) | num | 
+	E' -> epsilon | + T E' | - T E' | 
+	T' -> epsilon | * F T' | / F T' | 
+LL1 Table: 
+----------------------------------------------------------------------------
+|   symbol       $     num       -      id       (       +       *       /       ) |
+|        E    sync     TE'             TE'     TE'                            sync |
+|        T    sync     FT'    sync     FT'     FT'    sync                    sync |
+|        F    sync     num    sync      id     (E)    sync    sync    sync    sync |
+|       E' epsilon            -TE'                    +TE'                 epsilon |
+|       T' epsilon         epsilon                 epsilon    *FT'    /FT' epsilon |
+----------------------------------------------------------------------------
+Prcess:
+$E                       *(id-num)*+(*+num/num)$  [ERROR] Skip: *          
+$E                       (id-num)*+(*+num/num)$   E -> TE'
+$E'T                     (id-num)*+(*+num/num)$   T -> FT'
+$E'T'F                   (id-num)*+(*+num/num)$   F -> (E)
+$E'T')E(                 (id-num)*+(*+num/num)$   
+$E'T')E                  id-num)*+(*+num/num)$    E -> TE'
+$E'T')E'T                id-num)*+(*+num/num)$    T -> FT'
+$E'T')E'T'F              id-num)*+(*+num/num)$    F -> id
+$E'T')E'T'id             id-num)*+(*+num/num)$    
+$E'T')E'T'               -num)*+(*+num/num)$      T' -> epsilon
+$E'T')E'                 -num)*+(*+num/num)$      E' -> -TE'
+$E'T')E'T-               -num)*+(*+num/num)$      
+$E'T')E'T                num)*+(*+num/num)$       T -> FT'
+$E'T')E'T'F              num)*+(*+num/num)$       F -> num
+$E'T')E'T'num            num)*+(*+num/num)$       
+$E'T')E'T'               )*+(*+num/num)$          T' -> epsilon
+$E'T')E'                 )*+(*+num/num)$          E' -> epsilon
+$E'T')                   )*+(*+num/num)$          
+$E'T'                    *+(*+num/num)$           T' -> *FT'
+$E'T'F*                  *+(*+num/num)$           
+$E'T'F                   +(*+num/num)$            [ERROR] Pop: F           
+$E'T'                    +(*+num/num)$            T' -> epsilon
+$E'                      +(*+num/num)$            E' -> +TE'
+$E'T+                    +(*+num/num)$            
+$E'T                     (*+num/num)$             T -> FT'
+$E'T'F                   (*+num/num)$             F -> (E)
+$E'T')E(                 (*+num/num)$             
+$E'T')E                  *+num/num)$              [ERROR] Skip: *          
+$E'T')E                  +num/num)$               [ERROR] Skip: +          
+$E'T')E                  num/num)$                E -> TE'
+$E'T')E'T                num/num)$                T -> FT'
+$E'T')E'T'F              num/num)$                F -> num
+$E'T')E'T'num            num/num)$                
+$E'T')E'T'               /num)$                   T' -> /FT'
+$E'T')E'T'F/             /num)$                   
+$E'T')E'T'F              num)$                    F -> num
+$E'T')E'T'num            num)$                    
+$E'T')E'T'               )$                       T' -> epsilon
+$E'T')E'                 )$                       E' -> epsilon
+$E'T')                   )$                       
+$E'T'                    $                        T' -> epsilon
+$E'                      $                        E' -> epsilon
+$                        $                        

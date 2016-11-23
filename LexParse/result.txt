@@ -1,0 +1,179 @@
+Total Lines: 34
+Total Words: 139
+Total Chars: 445
+
+Error List:
+[Error] Row 25: expected unqualified-id before numeric constant
+[Error] Row 26: expected unqualified-id before numeric constant
+[Error] Row 27: Bad Exponential
+[Error] Row 27: Bad Exponential
+[Error] Row 27: Bad Exponential
+[Error] Row 28: Too few argument for char const
+[Error] Row 28: missing terminating ' character
+[Error] Row 29: missing terminating " character
+[Error] Row 31: The character @(64) is illegal
+[Error] Row 31: The character $(36) is illegal
+[Error] Row 31: The character `(96) is illegal
+[Error] Row 32: Syntx error ..
+
+
+Symbol List:
+a
+ahaha
+argc
+argv
+b
+c
+ch
+printf
+scanf
+sf
+str
+
+Token List:
+< int , - >
+< main , - >
+< ( , - >
+< int , - >
+< id , argc >
+< , , - >
+< char , - >
+< * , - >
+< id , argv >
+< [ , - >
+< ] , - >
+< ) , - >
+< { , - >
+< int , - >
+< id , a >
+< assign-op , - >
+< num , 10 >
+< ; , - >
+< double , - >
+< id , b >
+< assign-op , - >
+< num , 0.5 >
+< , , - >
+< num , 1.5 >
+< , , - >
+< num , .0 >
+< , , - >
+< num , .1e3 >
+< , , - >
+< num , 0. >
+< , , - >
+< num , 1.e2 >
+< , , - >
+< num , 56e-3 >
+< , , - >
+< num , 0.7e+8 >
+< ; , - >
+< float , - >
+< id , c >
+< assign-op , - >
+< id , a >
+< + , - >
+< assign-op , - >
+< id , a >
+< / , - >
+< id , b >
+< ; , - >
+< ; , - >
+< ; , - >
+< auto , - >
+< id , sf >
+< assign-op , - >
+< char ,   >
+< ; , - >
+< char , - >
+< id , ch >
+< assign-op , - >
+< string , @this is a \'Char\' >
+< ; , - >
+< const , - >
+< char , - >
+< * , - >
+< id , str >
+< assign-op , - >
+< string , $this is a \"String\" >
+< , , - >
+< string , String\n\r\v\t >
+< string , 2 >
+< ; , - >
+< id , printf >
+< ( , - >
+< string , LexTest\n\r\v\t >
+< ) , - >
+< ; , - >
+< [ , - >
+< ] , - >
+< ( , - >
+< ) , - >
+< { , - >
+< } , - >
+< num , . >
+< num , - >
+< relop , GT >
+< ++ , - >
+< -- , - >
+< & , - >
+< * , - >
+< + , - >
+< - , - >
+< ~ , - >
+< ! , - >
+< / , - >
+< % , - >
+< << , - >
+< << , - >
+< relop , LT >
+< relop , GT >
+< relop , LE >
+< relop , GE >
+< relop , EQ >
+< relop , NE >
+< ^ , - >
+< | , - >
+< && , - >
+< || , - >
+< ? , - >
+< : , - >
+< , , - >
+< ; , - >
+< ... , - >
+< int , - >
+< id , a >
+< assign-op , - >
+< ; , - >
+< int , - >
+< ; , - >
+< double , - >
+< id , b >
+< assign-op , - >
+< char , - >
+< id , ch >
+< assign-op , - >
+< , , - >
+< id , ahaha >
+< ; , - >
+< const , - >
+< char , - >
+< * , - >
+< id , str >
+< assign-op , - >
+< id , scanf >
+< ( , - >
+< string , Lex\eT\*e\|s\ht >
+< ) , - >
+< ; , - >
+< return , - >
+< num , 0 >
+< ; , - >
+< } , - >
+
+Comment List: 3 in total
+[Comment] 
+        Valid Input
+    
+[Comment] 
+[Comment]  Invalid Input

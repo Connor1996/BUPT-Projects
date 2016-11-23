@@ -1,0 +1,196 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (PhraseParser.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  SyntaxParser.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1365): warning C4503: “__LINE__Var”: 超出修饰名的长度，名称被截断
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1365): note: 编译类 模板 成员函数“std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>>>> std::vector<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>,std::_Wrap_alloc<std::allocator<_Other>>>::insert(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>>>>,unsigned int,const std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>> &)”时
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Other=std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const std::string,std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>>>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1355): note: 参见对正在编译的函数 模板 实例化“std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>>>> std::vector<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>,std::_Wrap_alloc<std::allocator<_Other>>>::insert(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>>>>,unsigned int,const std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>> &)”的引用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Other=std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const std::string,std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>>>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xhash(912): note: 参见对正在编译的类 模板 实例化“std::vector<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>,std::_Wrap_alloc<std::allocator<_Other>>>”的引用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Other=std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const std::string,std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>>>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\unordered_map(86): note: 参见对正在编译的类 模板 实例化“std::_Hash<std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>”的引用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Hasher=std::hash<std::string>,
+              _Keyeq=std::equal_to<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>
+          ]
+  e:\coding\syntaxparser\syntaxparser\syntaxparser.cpp(264): note: 参见对正在编译的类 模板 实例化“std::unordered_map<std::string,std::unordered_map<std::string,std::vector<std::string,std::allocator<_Kty>>,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,std::unordered_map<_Kty,_Ty,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>>>>”的引用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::vector<std::string,std::allocator<std::string>>
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1665): warning C4503: “__LINE__Var”: 超出修饰名的长度，名称被截断
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1665): note: 编译类 模板 成员函数“std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>>>> std::vector<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>,std::_Wrap_alloc<std::allocator<_Other>>>::_Insert_n(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>>>>,unsigned int,const std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>> &)”时
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Other=std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const std::string,std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>>>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1366): note: 参见对正在编译的函数 模板 实例化“std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>>>> std::vector<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>,std::_Wrap_alloc<std::allocator<_Other>>>::_Insert_n(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>>>>,unsigned int,const std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>> &)”的引用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Other=std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const std::string,std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>>>
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xhash(713): warning C4503: “__LINE__Var”: 超出修饰名的长度，名称被截断
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xhash(255): note: 参见对正在编译的函数 模板 实例化“std::pair<std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::_Hash<std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::_Insert<std::pair<const _Kty,_Ty>&,std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>>(_Valty,_Nodety)”的引用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Hasher=std::hash<std::string>,
+              _Keyeq=std::equal_to<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>,
+              _Valty=std::pair<const std::string,std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>> &,
+              _Nodety=std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const std::string,std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>>>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xhash(255): note: 参见对正在编译的函数 模板 实例化“std::pair<std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::_Hash<std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::_Insert<std::pair<const _Kty,_Ty>&,std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>>(_Valty,_Nodety)”的引用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Hasher=std::hash<std::string>,
+              _Keyeq=std::equal_to<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>,
+              _Valty=std::pair<const std::string,std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>> &,
+              _Nodety=std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const std::string,std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>>>
+          ]
+  e:\coding\syntaxparser\syntaxparser\syntaxparser.cpp(311): note: 参见对正在编译的函数 模板 实例化“std::pair<std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::_Hash<std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::emplace<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::unordered_map<_Kty,std::vector<std::string,std::allocator<_Kty>>,_Hasher,_Keyeq,std::allocator<std::pair<const _Kty,std::vector<std::string,std::allocator<_Kty>>>>>>>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::unordered_map<_Kty,std::vector<std::string,std::allocator<_Kty>>,_Hasher,_Keyeq,std::allocator<std::pair<const _Kty,std::vector<std::string,std::allocator<_Kty>>>>>> &&)”的引用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Hasher=std::hash<std::string>,
+              _Keyeq=std::equal_to<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>
+          ]
+  e:\coding\syntaxparser\syntaxparser\syntaxparser.cpp(311): note: 参见对正在编译的函数 模板 实例化“std::pair<std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::_Hash<std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::emplace<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::unordered_map<_Kty,std::vector<std::string,std::allocator<_Kty>>,_Hasher,_Keyeq,std::allocator<std::pair<const _Kty,std::vector<std::string,std::allocator<_Kty>>>>>>>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::unordered_map<_Kty,std::vector<std::string,std::allocator<_Kty>>,_Hasher,_Keyeq,std::allocator<std::pair<const _Kty,std::vector<std::string,std::allocator<_Kty>>>>>> &&)”的引用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Hasher=std::hash<std::string>,
+              _Keyeq=std::equal_to<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(856): warning C4503: “__LINE__Var”: 超出修饰名的长度，名称被截断
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(996): note: 参见对正在编译的函数 模板 实例化“void std::allocator_traits<_Alloc>::construct<_Ty,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::unordered_map<std::string,std::vector<std::string,std::allocator<_Kty>>,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,std::vector<std::string,std::allocator<_Kty>>>>>>>(std::allocator<_Other> &,_Objty *,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::unordered_map<_Kty,std::vector<std::string,std::allocator<_Kty>>,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,std::vector<std::string,std::allocator<_Kty>>>>>> &&)”的引用
+          with
+          [
+              _Alloc=std::allocator<std::_List_node<std::pair<const std::string,std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>,void *>>,
+              _Ty=std::pair<const std::string,std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>,
+              _Kty=std::string,
+              _Other=std::_List_node<std::pair<const std::string,std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>,void *>,
+              _Objty=std::pair<const std::string,std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(995): note: 参见对正在编译的函数 模板 实例化“void std::allocator_traits<_Alloc>::construct<_Ty,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::unordered_map<std::string,std::vector<std::string,std::allocator<_Kty>>,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,std::vector<std::string,std::allocator<_Kty>>>>>>>(std::allocator<_Other> &,_Objty *,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::unordered_map<_Kty,std::vector<std::string,std::allocator<_Kty>>,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,std::vector<std::string,std::allocator<_Kty>>>>>> &&)”的引用
+          with
+          [
+              _Alloc=std::allocator<std::_List_node<std::pair<const std::string,std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>,void *>>,
+              _Ty=std::pair<const std::string,std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>,
+              _Kty=std::string,
+              _Other=std::_List_node<std::pair<const std::string,std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>,void *>,
+              _Objty=std::pair<const std::string,std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\list(837): note: 参见对正在编译的函数 模板 实例化“void std::_Wrap_alloc<std::allocator<_Other>>::construct<_Ty,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::unordered_map<std::string,std::vector<std::string,std::allocator<_Kty>>,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,std::vector<std::string,std::allocator<_Kty>>>>>>>(_Ty *,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::unordered_map<_Kty,std::vector<std::string,std::allocator<_Kty>>,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,std::vector<std::string,std::allocator<_Kty>>>>>> &&)”的引用
+          with
+          [
+              _Other=std::_List_node<std::pair<const std::string,std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>,void *>,
+              _Ty=std::pair<const std::string,std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>,
+              _Kty=std::string
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\list(835): note: 参见对正在编译的函数 模板 实例化“void std::_Wrap_alloc<std::allocator<_Other>>::construct<_Ty,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::unordered_map<std::string,std::vector<std::string,std::allocator<_Kty>>,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,std::vector<std::string,std::allocator<_Kty>>>>>>>(_Ty *,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::unordered_map<_Kty,std::vector<std::string,std::allocator<_Kty>>,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,std::vector<std::string,std::allocator<_Kty>>>>>> &&)”的引用
+          with
+          [
+              _Other=std::_List_node<std::pair<const std::string,std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>,void *>,
+              _Ty=std::pair<const std::string,std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>,
+              _Kty=std::string
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\list(1065): note: 参见对正在编译的函数 模板 实例化“std::_List_node<std::pair<const _Kty,_Ty>,void *> *std::_List_buy<std::pair<const _Kty,_Ty>,_Alloc>::_Buynode<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::unordered_map<_Kty,std::vector<std::string,std::allocator<_Kty>>,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,std::vector<std::string,std::allocator<_Kty>>>>>>>(std::_List_node<std::pair<const _Kty,_Ty>,void *> *,std::_List_node<std::pair<const _Kty,_Ty>,void *> *,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::unordered_map<_Kty,std::vector<std::string,std::allocator<_Kty>>,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,std::vector<std::string,std::allocator<_Kty>>>>>> &&)”的引用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Alloc=std::allocator<std::pair<const std::string,std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\list(1064): note: 参见对正在编译的函数 模板 实例化“std::_List_node<std::pair<const _Kty,_Ty>,void *> *std::_List_buy<std::pair<const _Kty,_Ty>,_Alloc>::_Buynode<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::unordered_map<_Kty,std::vector<std::string,std::allocator<_Kty>>,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,std::vector<std::string,std::allocator<_Kty>>>>>>>(std::_List_node<std::pair<const _Kty,_Ty>,void *> *,std::_List_node<std::pair<const _Kty,_Ty>,void *> *,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::unordered_map<_Kty,std::vector<std::string,std::allocator<_Kty>>,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,std::vector<std::string,std::allocator<_Kty>>>>>> &&)”的引用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Alloc=std::allocator<std::pair<const std::string,std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\list(1037): note: 参见对正在编译的函数 模板 实例化“void std::list<std::pair<const _Kty,_Ty>,std::allocator<std::pair<const _Kty,_Ty>>>::_Insert<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::unordered_map<_Kty,std::vector<std::string,std::allocator<_Kty>>,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,std::vector<std::string,std::allocator<_Kty>>>>>>>(std::_List_unchecked_const_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>,std::_Iterator_base0>,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::unordered_map<_Kty,std::vector<std::string,std::allocator<_Kty>>,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,std::vector<std::string,std::allocator<_Kty>>>>>> &&)”的引用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\list(1037): note: 参见对正在编译的函数 模板 实例化“void std::list<std::pair<const _Kty,_Ty>,std::allocator<std::pair<const _Kty,_Ty>>>::_Insert<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::unordered_map<_Kty,std::vector<std::string,std::allocator<_Kty>>,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,std::vector<std::string,std::allocator<_Kty>>>>>>>(std::_List_unchecked_const_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>,std::_Iterator_base0>,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::unordered_map<_Kty,std::vector<std::string,std::allocator<_Kty>>,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,std::vector<std::string,std::allocator<_Kty>>>>>> &&)”的引用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xhash(254): note: 参见对正在编译的函数 模板 实例化“void std::list<std::pair<const _Kty,_Ty>,std::allocator<std::pair<const _Kty,_Ty>>>::emplace_front<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::unordered_map<_Kty,std::vector<std::string,std::allocator<_Kty>>,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,std::vector<std::string,std::allocator<_Kty>>>>>>>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::unordered_map<_Kty,std::vector<std::string,std::allocator<_Kty>>,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,std::vector<std::string,std::allocator<_Kty>>>>>> &&)”的引用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xhash(254): note: 参见对正在编译的函数 模板 实例化“void std::list<std::pair<const _Kty,_Ty>,std::allocator<std::pair<const _Kty,_Ty>>>::emplace_front<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::unordered_map<_Kty,std::vector<std::string,std::allocator<_Kty>>,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,std::vector<std::string,std::allocator<_Kty>>>>>>>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::unordered_map<_Kty,std::vector<std::string,std::allocator<_Kty>>,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,std::vector<std::string,std::allocator<_Kty>>>>>> &&)”的引用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>
+          ]
+e:\coding\syntaxparser\syntaxparser\syntaxparser.cpp(539): warning C4503: “std::vector<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>,std::_Wrap_alloc<std::allocator<_Other>>>::insert”: 超出修饰名的长度，名称被截断
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Other=std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const std::string,std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>>>
+          ]
+e:\coding\syntaxparser\syntaxparser\syntaxparser.cpp(539): warning C4503: “std::vector<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>,std::_Wrap_alloc<std::allocator<_Other>>>::_Insert_n”: 超出修饰名的长度，名称被截断
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Other=std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const std::string,std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>>>
+          ]
+e:\coding\syntaxparser\syntaxparser\syntaxparser.cpp(539): warning C4503: “std::_Hash<std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::_Insert”: 超出修饰名的长度，名称被截断
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Hasher=std::hash<std::string>,
+              _Keyeq=std::equal_to<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>
+          ]
+e:\coding\syntaxparser\syntaxparser\syntaxparser.cpp(539): warning C4503: “std::allocator_traits<_Alloc>::construct”: 超出修饰名的长度，名称被截断
+          with
+          [
+              _Alloc=std::allocator<std::_List_node<std::pair<const std::string,std::unordered_map<std::string,std::vector<std::string,std::allocator<std::string>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>,void *>>
+          ]
+  PhraseParser.vcxproj -> E:\Coding\SyntaxParser\Debug\SyntaxParser.exe
+  PhraseParser.vcxproj -> E:\Coding\SyntaxParser\Debug\SyntaxParser.pdb (Full PDB)

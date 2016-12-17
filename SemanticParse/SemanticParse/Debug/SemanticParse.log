@@ -1,0 +1,4 @@
+﻿  SemanticParse.cpp
+e:\coding\bupt-projects\semanticparse\semanticparse\semanticparse.cpp(110): warning C4018: “<”: 有符号/无符号不匹配
+  SemanticParse.vcxproj -> E:\Coding\BUPT-Projects\SyntaxParser\Debug\SemanticParse.exe
+  SemanticParse.vcxproj -> E:\Coding\BUPT-Projects\SyntaxParser\Debug\SemanticParse.pdb (Full PDB)

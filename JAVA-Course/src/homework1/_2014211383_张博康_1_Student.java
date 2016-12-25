@@ -1,3 +1,5 @@
+package homework1;
+
 import java.util.Scanner;
 
 public class _2014211383_张博康_1_Student {

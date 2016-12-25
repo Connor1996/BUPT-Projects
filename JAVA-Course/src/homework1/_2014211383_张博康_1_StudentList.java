@@ -1,3 +1,5 @@
+package homework1;
+
 import java.lang.reflect.Method;
 import java.util.Scanner;
 

@@ -169,7 +169,6 @@ class BasePlusCommisionEmployeeInput extends JDialog {
 
         add(baseBox);
     }
-
 }
 
 class CommisionEmployeeInput extends JDialog {

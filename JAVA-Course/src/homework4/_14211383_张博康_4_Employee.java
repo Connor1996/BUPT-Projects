@@ -1,15 +1,11 @@
-package homework5;
+package homework4;
 
-import java.lang.reflect.Method;
-import java.util.ArrayList;
-import java.util.Scanner;
-
-public abstract class _14211383_张博康_3_Employee {
+public abstract class _14211383_张博康_4_Employee {
     private String firstName;
     private String lastName;
     private String socialSecurityNumber;
 
-    public _14211383_张博康_3_Employee(String firstName, String lastName,
+    public _14211383_张博康_4_Employee(String firstName, String lastName,
                                     String socialSecurityNumber) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -44,7 +40,7 @@ public abstract class _14211383_张博康_3_Employee {
     }
 }
 
-class SalaridEmployee extends _14211383_张博康_3_Employee {
+class SalaridEmployee extends _14211383_张博康_4_Employee {
     private int weeklySalary;
 
     public SalaridEmployee(String firstName, String lastName,
@@ -71,7 +67,7 @@ class SalaridEmployee extends _14211383_张博康_3_Employee {
     }
 }
 
-class  HourlyEmployee extends _14211383_张博康_3_Employee {
+class  HourlyEmployee extends _14211383_张博康_4_Employee {
     private int wage;
     private int hours;
 
@@ -109,7 +105,7 @@ class  HourlyEmployee extends _14211383_张博康_3_Employee {
     }
 }
 
-class  CommisionEmployee extends _14211383_张博康_3_Employee {
+class  CommisionEmployee extends _14211383_张博康_4_Employee {
     protected int grossSales;
     protected int commissionRate;
 

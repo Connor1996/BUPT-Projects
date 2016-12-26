@@ -35,11 +35,13 @@ public class _14211383_张博康_5_Factory {
 
             try
             {
+                // 使用反射实例化类对象
                 Class cls  = Class.forName("homework5." + type[(int)(Math.random() * 4)]);
-                _14211383_张博康_3_Employee employee = (_14211383_张博康_3_Employee)cls
+                _14211383_张博康_5_Employee employee = (_14211383_张博康_5_Employee)cls
                         .getConstructor(String.class, String.class, String.class)
                         .newInstance(firstName, lastName, socialSecurityNumber);
 
+                // 使用反射设置类的各个属性
                 Method[] methods = cls.getMethods();
                 for (Method method : methods) {
                     String methodName = method.getName();
@@ -47,6 +49,7 @@ public class _14211383_张博康_5_Factory {
                         method.invoke(employee, (int)(100 + Math.random() * 100));
                 }
 
+                // 插入新员工
                 if (addEmployee(employee) == null) {
                     System.out.println("已经有该员工，请重新输入");
                     i--;
@@ -59,15 +62,15 @@ public class _14211383_张博康_5_Factory {
         }
     }
 
-    public _14211383_张博康_3_Employee getEmployee(String empSecNum) {
+    public _14211383_张博康_5_Employee getEmployee(String empSecNum) {
         return employees.get(empSecNum);
     }
 
-    public _14211383_张博康_3_Employee deleteEmployee(String empSecNum) {
+    public _14211383_张博康_5_Employee deleteEmployee(String empSecNum) {
         return employees.remove(empSecNum);
     }
 
-    public _14211383_张博康_3_Employee addEmployee(_14211383_张博康_3_Employee stu) {
+    public _14211383_张博康_5_Employee addEmployee(_14211383_张博康_5_Employee stu) {
         if (employees.containsKey(stu.getSocialSecurityNumber()))
             return null;
         else {
@@ -76,7 +79,7 @@ public class _14211383_张博康_5_Factory {
         }
     }
 
-    public _14211383_张博康_3_Employee updateEmployee(String empSecNUm, _14211383_张博康_3_Employee emp) {
+    public _14211383_张博康_5_Employee updateEmployee(String empSecNUm, _14211383_张博康_5_Employee emp) {
         if (employees.put(empSecNUm, emp) == null)
             return null;
         else
@@ -84,15 +87,16 @@ public class _14211383_张博康_5_Factory {
     }
 
     public void printEmployees() {
-        for (HashMap.Entry<String, _14211383_张博康_3_Employee> emp : employees.entrySet())
+        for (HashMap.Entry<String, _14211383_张博康_5_Employee> emp : employees.entrySet())
             System.out.println(emp.getValue());
     }
 
-    private HashMap<String, _14211383_张博康_3_Employee> employees;
+    private HashMap<String, _14211383_张博康_5_Employee> employees;
 
     public static void main(String[] argv) {
         _14211383_张博康_5_Factory factory = new _14211383_张博康_5_Factory();
 
+        // 输出菜单
         Scanner input = new Scanner(System.in);
         System.out.println("请输入要执行的命令\n" +
         "0. 退出程序\n" +
@@ -101,6 +105,7 @@ public class _14211383_张博康_5_Factory {
         "3. 删除员工信息\n" +
         "4. 打印全部员工信息\n");
 
+        // 根据输入选择命令
         int choose;
         boolean quit = false;
         while(true) {
@@ -120,7 +125,7 @@ public class _14211383_张博康_5_Factory {
                     case 1: {
                         System.out.print("请输入要查询的员工社会保险号: ");
                         String empSecNum = input.next();
-                        _14211383_张博康_3_Employee emp = factory.getEmployee(empSecNum);
+                        _14211383_张博康_5_Employee emp = factory.getEmployee(empSecNum);
                         if (emp == null)
                             throw new Exception("无该员工信息");
                         else
@@ -130,7 +135,7 @@ public class _14211383_张博康_5_Factory {
                     case 2: {
                         System.out.print("请输入要更新的员工社会保险号： ");
                         String empSecNUm = input.next();
-                        _14211383_张博康_3_Employee emp = factory.getEmployee(empSecNUm);
+                        _14211383_张博康_5_Employee emp = factory.getEmployee(empSecNUm);
                         if (factory.getEmployee(empSecNUm) == null)
                             throw new Exception("无该员工信息");
 

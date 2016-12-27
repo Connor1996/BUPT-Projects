@@ -8,6 +8,6 @@ public class _14211383_张博康_7_FlatRateStrategy implements _14211383_张博�
 
     @Override
     public double getSubTotal(_14211383_张博康_7_SaleLineItem saleLineItem) {
+        return 0;
     }
 }
-

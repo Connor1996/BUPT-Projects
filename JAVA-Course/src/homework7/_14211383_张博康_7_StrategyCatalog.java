@@ -8,4 +8,7 @@ import java.util.HashMap;
 public class _14211383_张博康_7_StrategyCatalog {
     private HashMap<String, _14211383_张博康_7_IPricingStrategy> strategies;
 
+    public _14211383_张博康_7_IPricingStrategy getStrategy(String isbn) {
+        return strategies.get(isbn);
+    }
 }

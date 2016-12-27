@@ -5,11 +5,10 @@ package homework7;
  */
 public class _14211383_张博康_7_Controller {
     private _14211383_张博康_7_BookCatalog bookCatalog;
-    private _14211383_张博康_7_StrategyCatalog strategyCatalog;
 
     public _14211383_张博康_7_Controller() {
         bookCatalog = new _14211383_张博康_7_BookCatalog();
-        strategyCatalog = new _14211383_张博康_7_StrategyCatalog();
+
     }
 
     public void addBook(double price, String title, int type, String isbn) {
@@ -28,10 +27,10 @@ public class _14211383_张博康_7_Controller {
     }
 
     public void addSimpleStrategy() {
-
+        //_14211383_张博康_7_PricingStrategyFactory.getInstance().addStrategy();
     }
 
-    public void deleteStrategy() {
+    public void deleteStrategy(int number) {
 
     }
 

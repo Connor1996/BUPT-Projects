@@ -7,7 +7,11 @@ import javax.swing.*;
 import java.awt.*;
 
 public class _14211383_张博康_7_AddBookUI extends JFrame {
-    public _14211383_张博康_7_AddBookUI() {
+    private _14211383_张博康_7_Controller controller;
+
+    public _14211383_张博康_7_AddBookUI(_14211383_张博康_7_Controller controller) {
+        this.controller = controller;
+
         setSize(340, 250);
         setVisible(true);
         setLayout(new FlowLayout());
@@ -55,7 +59,7 @@ public class _14211383_张博康_7_AddBookUI extends JFrame {
         Box buttonBox = Box.createHorizontalBox();
         JButton addEmployee = new JButton("添加");
         addEmployee.addActionListener((e) -> {
-            _14211383_张博康_7_MainUI.controller.addBook(
+            controller.addBook(
                     Double.parseDouble(priceField.getText()),
                     titleField.getText(),
                     Integer.parseInt(typeField.getText()),

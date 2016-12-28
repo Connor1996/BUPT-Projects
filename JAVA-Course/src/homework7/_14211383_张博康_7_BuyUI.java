@@ -4,6 +4,8 @@ package homework7;
  * Created by Connor on 2016/12/26.
  */
 import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableModel;
 import java.awt.*;
 
 public class _14211383_张博康_7_BuyUI extends JFrame {
@@ -11,6 +13,7 @@ public class _14211383_张博康_7_BuyUI extends JFrame {
     // UI组件
     private JPanel panel1;
     private JTable bookTable;
+    private DefaultTableModel bookTableModel;
     private JTextField isbnField;
     private JTextField numberField;
     private JButton buyButton;
@@ -19,6 +22,11 @@ public class _14211383_张博康_7_BuyUI extends JFrame {
     _14211383_张博康_7_BuyUI(_14211383_张博康_7_Controller controller) {
         this.controller = controller;
         InitUI();
+        InitAction();
+    }
+
+    private void InitAction() {
+
     }
 
     private void InitUI() {
@@ -35,8 +43,16 @@ public class _14211383_张博康_7_BuyUI extends JFrame {
         panel2.add(panel3, BorderLayout.CENTER);
         final JScrollPane scrollPane1 = new JScrollPane();
         panel3.add(scrollPane1, BorderLayout.CENTER);
-        bookTable = new JTable();
+
+        // 设置书本显示表格
+        bookTableModel = new DefaultTableModel();
+        bookTable = new JTable(bookTableModel);
+        bookTableModel.addColumn("ISBN");
+        bookTableModel.addColumn("书名");
+        bookTableModel.addColumn("价格");
+        bookTableModel.addColumn("书本类型");
         scrollPane1.setViewportView(bookTable);
+
         final JPanel panel4 = new JPanel();
         panel4.setLayout(new GridBagLayout());
         panel1.add(panel4, BorderLayout.SOUTH);

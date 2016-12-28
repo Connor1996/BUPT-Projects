@@ -18,6 +18,7 @@ public class StrategiesUI {
     private JButton addButton;
     private JButton updateButton;
     private JComboBox strategyChooseBox;
+    private JComboBox bookTypeBox;
 
 
     {
@@ -96,7 +97,7 @@ public class StrategiesUI {
         label5.setText("折扣百分比/每本优惠额度");
         gbc = new GridBagConstraints();
         gbc.gridx = 0;
-        gbc.gridy = 8;
+        gbc.gridy = 10;
         gbc.anchor = GridBagConstraints.WEST;
         panel5.add(label5, gbc);
         strategyIdField = new JTextField();
@@ -115,9 +116,10 @@ public class StrategiesUI {
         gbc.fill = GridBagConstraints.HORIZONTAL;
         panel5.add(strategyNameField, gbc);
         discountField = new JTextField();
+        discountField.setText("");
         gbc = new GridBagConstraints();
         gbc.gridx = 2;
-        gbc.gridy = 8;
+        gbc.gridy = 10;
         gbc.anchor = GridBagConstraints.WEST;
         gbc.fill = GridBagConstraints.HORIZONTAL;
         panel5.add(discountField, gbc);
@@ -176,9 +178,31 @@ public class StrategiesUI {
         final JPanel spacer6 = new JPanel();
         gbc = new GridBagConstraints();
         gbc.gridx = 1;
-        gbc.gridy = 9;
+        gbc.gridy = 11;
         gbc.fill = GridBagConstraints.VERTICAL;
         panel5.add(spacer6, gbc);
+        final JLabel label6 = new JLabel();
+        label6.setText("适用图书类型");
+        gbc = new GridBagConstraints();
+        gbc.gridx = 0;
+        gbc.gridy = 8;
+        gbc.anchor = GridBagConstraints.WEST;
+        panel5.add(label6, gbc);
+        bookTypeBox = new JComboBox();
+        final DefaultComboBoxModel defaultComboBoxModel3 = new DefaultComboBoxModel();
+        bookTypeBox.setModel(defaultComboBoxModel3);
+        gbc = new GridBagConstraints();
+        gbc.gridx = 2;
+        gbc.gridy = 8;
+        gbc.anchor = GridBagConstraints.WEST;
+        gbc.fill = GridBagConstraints.HORIZONTAL;
+        panel5.add(bookTypeBox, gbc);
+        final JPanel spacer7 = new JPanel();
+        gbc = new GridBagConstraints();
+        gbc.gridx = 1;
+        gbc.gridy = 9;
+        gbc.fill = GridBagConstraints.VERTICAL;
+        panel5.add(spacer7, gbc);
         final JPanel panel6 = new JPanel();
         panel6.setLayout(new FlowLayout(FlowLayout.CENTER, 5, 5));
         gbc = new GridBagConstraints();
@@ -189,8 +213,8 @@ public class StrategiesUI {
         addButton = new JButton();
         addButton.setText("添加");
         panel6.add(addButton);
-        final com.intellij.uiDesigner.core.Spacer spacer7 = new com.intellij.uiDesigner.core.Spacer();
-        panel6.add(spacer7);
+        final com.intellij.uiDesigner.core.Spacer spacer8 = new com.intellij.uiDesigner.core.Spacer();
+        panel6.add(spacer8);
         updateButton = new JButton();
         updateButton.setText("更新");
         panel6.add(updateButton);

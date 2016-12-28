@@ -9,6 +9,7 @@ import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableColumnModel;
 import javax.swing.table.TableModel;
 import java.awt.*;
+import java.awt.geom.Arc2D;
 
 public class _14211383_张博康_7_StrategiesUI extends JFrame {
     private _14211383_张博康_7_Controller controller;
@@ -25,6 +26,8 @@ public class _14211383_张博康_7_StrategiesUI extends JFrame {
     private JButton addButton;
     private JButton updateButton;
     private JComboBox strategyChooseBox;
+    private DefaultComboBoxModel strategyChooseBoxModel;
+    private JComboBox bookTypeBox;
 
     _14211383_张博康_7_StrategiesUI(_14211383_张博康_7_Controller controller) {
         this.controller = controller;
@@ -33,17 +36,103 @@ public class _14211383_张博康_7_StrategiesUI extends JFrame {
     }
 
     private void InitAction() {
+
         addButton.addActionListener(e -> {
-            controller.addSimpleStrategy();
+            try {
+                System.out.println(strategyIdField.getText());
+                if (strategyTypeBox.getSelectedIndex() == 2) {
+                    if (controller.addCompositeStrategy(
+                            strategyIdField.getText(),
+                            strategyNameField.getText(),
+                            bookTypeBox.getSelectedIndex(),
+                            discountField.getText()
+                    ) == false)
+                        JOptionPane.showMessageDialog(null, "添加失败");
+                    else {
+                        strategyChooseBoxModel.addElement(strategyIdField.getText());
+                        strategyTableModel.addRow(new Object[]{
+                                strategyIdField.getText(),
+                                strategyNameField.getText(),
+                                strategyTypeBox.getSelectedItem(),
+                                bookTypeBox.getSelectedItem(),
+                                discountField.getText()
+                        });
+                        JOptionPane.showMessageDialog(null, "添加成功");
+                        strategyNameField.setText("");
+                        strategyChooseBox.setSelectedIndex(0);
+                        strategyIdField.setText("");
+                        discountField.setText("");
+                    }
+                }
+                else if (controller.addSimpleStrategy(
+                        strategyIdField.getText(),
+                        strategyNameField.getText(),
+                        strategyTypeBox.getSelectedIndex(),
+                        bookTypeBox.getSelectedIndex(),
+                        Double.parseDouble(discountField.getText())
+                ) == false)
+                    JOptionPane.showMessageDialog(null, "重复键值，添加失败");
+                else {
+                    strategyChooseBoxModel.addElement(strategyIdField.getText());
+                    strategyTableModel.addRow(new Object[]{
+                            strategyIdField.getText(),
+                            strategyNameField.getText(),
+                            strategyTypeBox.getSelectedItem(),
+                            bookTypeBox.getSelectedItem(),
+                            discountField.getText()
+                    });
+                    JOptionPane.showMessageDialog(null, "添加成功");
+                    strategyNameField.setText("");
+                    strategyChooseBox.setSelectedIndex(0);
+                    strategyIdField.setText("");
+                    discountField.setText("");
+                }
+            } catch (Exception except) {
+                except.printStackTrace();
+                JOptionPane.showMessageDialog(null, "信息填写不完整或格式错误");
+            }
+        });
+
+        updateButton.addActionListener(e -> {
+            if (strategyChooseBox.getSelectedIndex() == 0) {
+                JOptionPane.showMessageDialog(null, "未选择更新的策略");
+            } else {
+                controller.updateStrategy(
+                        strategyIdField.getText(),
+                        strategyNameField.getText(),
+                        strategyTypeBox.getSelectedIndex(),
+                        bookTypeBox.getSelectedIndex(),
+                        Double.parseDouble(discountField.getText())
+                );
+
+                strategyTableModel.removeRow(strategyChooseBox.getSelectedIndex() - 1);
+                strategyTableModel.addRow(new Object[]{
+                        strategyIdField.getText(),
+                        strategyNameField.getText(),
+                        strategyTypeBox.getSelectedItem(),
+                        bookTypeBox.getSelectedItem(),
+                        discountField.getText()
+                });
+
+                strategyChooseBoxModel.removeElement(strategyChooseBox.getSelectedItem());
+                strategyChooseBoxModel.addElement(strategyIdField.getText());
+                JOptionPane.showMessageDialog(null, "更新成功");
+                strategyNameField.setText("");
+                strategyChooseBox.setSelectedIndex(0);
+                strategyIdField.setText("");
+                discountField.setText("");
+            }
         });
 
         deleteButton.addActionListener(e -> {
             int select = strategyTable.getSelectedRow();
             if (select == -1)
                 JOptionPane.showMessageDialog(null, "请选择一个策略");
-            else
+            else {
+                controller.deleteStrategy((String)strategyTableModel.getValueAt(select, 0));
+                strategyChooseBoxModel.removeElement(strategyTableModel.getValueAt(select, 0));
                 strategyTableModel.removeRow(select);
-            controller.deleteStrategy((int)strategyTableModel.getValueAt(select, 0));
+            }
         });
 
     }
@@ -52,6 +141,7 @@ public class _14211383_张博康_7_StrategiesUI extends JFrame {
     private void InitUI() {
         setVisible(true);
         setSize(400, 480);
+        setDefaultCloseOperation(HIDE_ON_CLOSE);
 
         panel1 = new JPanel();
         panel1.setLayout(new BorderLayout(0, 0));
@@ -65,12 +155,20 @@ public class _14211383_张博康_7_StrategiesUI extends JFrame {
 
 
         // 设置策略显示表格
-        String[] columnName = {"定价策略编号", "策略名称", "定价策略类型", "折扣百分比/每本优惠额度"};
-        TableColumnModel columnModel = new DefaultTableColumnModel();
+        strategyTableModel = new DefaultTableModel();
         strategyTable = new JTable(strategyTableModel);
-        strategyTable.setColumnModel(columnModel);
+        strategyTableModel.addColumn("定价策略编号");
+        strategyTableModel.addColumn("策略名称");
+        strategyTableModel.addColumn("定价策略类型");
+        strategyTableModel.addColumn("适合图书类型");
+        strategyTableModel.addColumn("折扣百分比/每本优惠额度");
         scrollPane1.setViewportView(strategyTable);
-
+        // 加载已有策略
+//        for (controller.getStrategies()) {
+//            strategyTableModel.addRow(new Object[]{
+//
+//            });
+//        }
 
         final JPanel panel3 = new JPanel();
         panel3.setLayout(new FlowLayout(FlowLayout.CENTER, 5, 5));
@@ -121,7 +219,7 @@ public class _14211383_张博康_7_StrategiesUI extends JFrame {
         label5.setText("折扣百分比/每本优惠额度");
         gbc = new GridBagConstraints();
         gbc.gridx = 0;
-        gbc.gridy = 8;
+        gbc.gridy = 10;
         gbc.anchor = GridBagConstraints.WEST;
         panel5.add(label5, gbc);
         strategyIdField = new JTextField();
@@ -142,7 +240,7 @@ public class _14211383_张博康_7_StrategiesUI extends JFrame {
         discountField = new JTextField();
         gbc = new GridBagConstraints();
         gbc.gridx = 2;
-        gbc.gridy = 8;
+        gbc.gridy = 10;
         gbc.anchor = GridBagConstraints.WEST;
         gbc.fill = GridBagConstraints.HORIZONTAL;
         panel5.add(discountField, gbc);
@@ -150,6 +248,7 @@ public class _14211383_张博康_7_StrategiesUI extends JFrame {
         final DefaultComboBoxModel defaultComboBoxModel1 = new DefaultComboBoxModel();
         defaultComboBoxModel1.addElement("百分比折扣简单策略");
         defaultComboBoxModel1.addElement("绝对值优惠简单策略");
+        defaultComboBoxModel1.addElement("组合策略");
         strategyTypeBox.setModel(defaultComboBoxModel1);
         gbc = new GridBagConstraints();
         gbc.gridx = 2;
@@ -164,9 +263,9 @@ public class _14211383_张博康_7_StrategiesUI extends JFrame {
         gbc.fill = GridBagConstraints.HORIZONTAL;
         panel5.add(spacer1, gbc);
         strategyChooseBox = new JComboBox();
-        final DefaultComboBoxModel defaultComboBoxModel2 = new DefaultComboBoxModel();
-        defaultComboBoxModel2.addElement("不更新策略");
-        strategyChooseBox.setModel(defaultComboBoxModel2);
+        strategyChooseBoxModel = new DefaultComboBoxModel();
+        strategyChooseBoxModel.addElement("不更新策略");
+        strategyChooseBox.setModel(strategyChooseBoxModel);
         gbc = new GridBagConstraints();
         gbc.gridx = 2;
         gbc.gridy = 0;
@@ -200,9 +299,36 @@ public class _14211383_张博康_7_StrategiesUI extends JFrame {
         final JPanel spacer6 = new JPanel();
         gbc = new GridBagConstraints();
         gbc.gridx = 1;
-        gbc.gridy = 9;
+        gbc.gridy = 11;
         gbc.fill = GridBagConstraints.VERTICAL;
         panel5.add(spacer6, gbc);
+        final JLabel label6 = new JLabel();
+        label6.setText("适用图书类型");
+        gbc = new GridBagConstraints();
+        gbc.gridx = 0;
+        gbc.gridy = 8;
+        gbc.anchor = GridBagConstraints.WEST;
+        panel5.add(label6, gbc);
+        bookTypeBox = new JComboBox();
+        final DefaultComboBoxModel defaultComboBoxModel3 = new DefaultComboBoxModel();
+        defaultComboBoxModel3.addElement("非教材类计算机图书");
+        defaultComboBoxModel3.addElement("教材类图书");
+        defaultComboBoxModel3.addElement("连环画类图书");
+        defaultComboBoxModel3.addElement("养生类图书");
+        defaultComboBoxModel3.addElement("其他");
+        bookTypeBox.setModel(defaultComboBoxModel3);
+        gbc = new GridBagConstraints();
+        gbc.gridx = 2;
+        gbc.gridy = 8;
+        gbc.anchor = GridBagConstraints.WEST;
+        gbc.fill = GridBagConstraints.HORIZONTAL;
+        panel5.add(bookTypeBox, gbc);
+        final JPanel spacer7 = new JPanel();
+        gbc = new GridBagConstraints();
+        gbc.gridx = 1;
+        gbc.gridy = 9;
+        gbc.fill = GridBagConstraints.VERTICAL;
+        panel5.add(spacer7, gbc);
         final JPanel panel6 = new JPanel();
         panel6.setLayout(new FlowLayout(FlowLayout.CENTER, 5, 5));
         gbc = new GridBagConstraints();
@@ -213,8 +339,8 @@ public class _14211383_张博康_7_StrategiesUI extends JFrame {
         addButton = new JButton();
         addButton.setText("添加");
         panel6.add(addButton);
-        final JPanel spacer7 = new JPanel();
-        panel6.add(spacer7);
+        final JPanel spacer8 = new JPanel();
+        panel6.add(spacer8);
         updateButton = new JButton();
         updateButton.setText("更新");
         panel6.add(updateButton);

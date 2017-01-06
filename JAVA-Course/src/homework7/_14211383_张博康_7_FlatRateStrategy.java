@@ -6,6 +6,8 @@ package homework7;
 public class _14211383_张博康_7_FlatRateStrategy extends _14211383_张博康_7_IPricingStrategy {
     private double discountPerBook;
 
+    public String getDiscount() { return String.valueOf(discountPerBook); }
+
     public _14211383_张博康_7_FlatRateStrategy(String id, String name, double discountPerBook) {
         this.id = id;
         this.name = name;
@@ -14,6 +16,6 @@ public class _14211383_张博康_7_FlatRateStrategy extends _14211383_张博康_
 
     @Override
     public double getSubTotal(_14211383_张博康_7_SaleLineItem saleLineItem) {
-        return 0;
+        return saleLineItem.getCopies() * ( saleLineItem.getPrice() - discountPerBook);
     }
 }

@@ -12,8 +12,10 @@ public class _14211383_张博康_7_AddBookUI extends JFrame {
     public _14211383_张博康_7_AddBookUI(_14211383_张博康_7_Controller controller) {
         this.controller = controller;
 
+        setTitle("增加书本");
         setSize(340, 250);
         setVisible(true);
+        setLocationRelativeTo(null);
         setLayout(new FlowLayout());
         Box baseBox = Box.createVerticalBox();
         // 先加入一个不可见的 Strut，从而使顶部留出一定的空间
@@ -66,13 +68,17 @@ public class _14211383_张博康_7_AddBookUI extends JFrame {
         Box buttonBox = Box.createHorizontalBox();
         JButton addEmployee = new JButton("添加");
         addEmployee.addActionListener((e) -> {
-            controller.addBook(
-                    Double.parseDouble(priceField.getText()),
-                    titleField.getText(),
-                    typeField.getSelectedIndex(),
-                    isbnField.getText()
-            );
-            dispose();
+            try {
+                controller.addBook(
+                        Double.parseDouble(priceField.getText()),
+                        titleField.getText(),
+                        typeField.getSelectedIndex(),
+                        isbnField.getText()
+                );
+                dispose();
+            } catch (Exception except) {
+                JOptionPane.showMessageDialog(null, "输入信息不符合格式");
+            }
         });
         JButton close = new JButton("取消");
         close.addActionListener((e) -> {

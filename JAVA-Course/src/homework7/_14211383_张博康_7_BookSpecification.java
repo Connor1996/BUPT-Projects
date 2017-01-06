@@ -20,8 +20,19 @@ public class _14211383_张博康_7_BookSpecification {
         this.isbn = isbn;
     }
 
+    public int getType() {
+        return type;
+    }
+
+    public String getIsbn() {
+        return isbn;
+    }
+
+    public String getTitle() {
+        return title;
+    }
 
     public double getPrice() {
-        return 0;
+        return price;
     }
 }

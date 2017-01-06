@@ -6,7 +6,7 @@ package homework7;
 public class _14211383_张博康_7_PercentageStrategy extends _14211383_张博康_7_IPricingStrategy {
     private double discountPercentage;
 
-    public String getId() { return id; }
+    public String getDiscount() { return String.valueOf(discountPercentage); }
 
     _14211383_张博康_7_PercentageStrategy(String id, String name, double discountPercentage) {
         this.id = id;
@@ -16,6 +16,6 @@ public class _14211383_张博康_7_PercentageStrategy extends _14211383_张博�
 
     @Override
     public double getSubTotal(_14211383_张博康_7_SaleLineItem saleLineItem) {
-        return 0;
+        return saleLineItem.getCopies() * ( saleLineItem.getPrice() * (100 - discountPercentage) / 100);
     }
 }

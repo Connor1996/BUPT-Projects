@@ -7,32 +7,70 @@ import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableModel;
 import java.awt.*;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+import java.util.Vector;
 
 public class _14211383_张博康_7_BuyUI extends JFrame {
     private _14211383_张博康_7_Controller controller;
+    private _14211383_张博康_7_ShoppingCarUI shoppingCart;
     // UI组件
     private JPanel panel1;
     private JTable bookTable;
     private DefaultTableModel bookTableModel;
     private JTextField isbnField;
-    private JTextField numberField;
+    private JSpinner numberField;
     private JButton buyButton;
     private JButton concealButton;
 
     _14211383_张博康_7_BuyUI(_14211383_张博康_7_Controller controller) {
         this.controller = controller;
+        this.shoppingCart = new _14211383_张博康_7_ShoppingCarUI();
+        controller.getSale().registerObserver(shoppingCart);
+
         InitUI();
         InitAction();
     }
 
     private void InitAction() {
+        // 点击购买按钮调用controller相关函数
+        buyButton.addActionListener(e -> {
+            try {
+                if ((int)numberField.getValue() == 0)
+                    JOptionPane.showMessageDialog(null, "购买本书至少为一");
+                else {
+                    controller.buyBook(isbnField.getText(), (int) numberField.getValue());
+                    JOptionPane.showMessageDialog(null, "添加购物车成功");
+                    isbnField.setText("");
+                    numberField.setValue(0);
+                }
+            } catch (Exception except) {
+                JOptionPane.showMessageDialog(null, "添加失败，无该书本信息");
+            }
+        });
 
+        concealButton.addActionListener(e -> {
+            setVisible(false);
+        });
+
+        // 在关闭窗口时移除原购物车窗口的listen
+        addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                super.windowClosing(e);
+                controller.getSale().removeObserver(shoppingCart);
+            }
+        });
     }
 
     private void InitUI() {
+        setTitle("购买图书");
         setVisible(true);
         setSize(400, 480);
+        setLocationRelativeTo(null);
+        setDefaultCloseOperation(HIDE_ON_CLOSE);
 
+        // 设置图形化UI
         panel1 = new JPanel();
         panel1.setLayout(new BorderLayout(0, 0));
         final JPanel panel2 = new JPanel();
@@ -52,6 +90,11 @@ public class _14211383_张博康_7_BuyUI extends JFrame {
         bookTableModel.addColumn("价格");
         bookTableModel.addColumn("书本类型");
         scrollPane1.setViewportView(bookTable);
+        // 加载已有书本
+        for (Vector<Object> x : controller.getBooks()) {
+            bookTableModel.addRow(x);
+        }
+
 
         final JPanel panel4 = new JPanel();
         panel4.setLayout(new GridBagLayout());
@@ -112,7 +155,7 @@ public class _14211383_张博康_7_BuyUI extends JFrame {
         gbc.gridy = 2;
         gbc.fill = GridBagConstraints.VERTICAL;
         panel4.add(spacer5, gbc);
-        numberField = new JTextField();
+        numberField = new JSpinner();
         gbc = new GridBagConstraints();
         gbc.gridx = 3;
         gbc.gridy = 3;

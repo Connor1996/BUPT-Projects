@@ -11,6 +11,13 @@ public class _14211383_张博康_7_CompositeBestForCustomer extends _14211383_�
 
     @Override
     public double getSubTotal(_14211383_张博康_7_SaleLineItem saleLineItem) {
-        return 0;
+        double min = 1000000000;
+
+        // 寻找最小的总价
+        for (_14211383_张博康_7_IPricingStrategy strategy : strategies) {
+            min = Math.min(strategy.getSubTotal(saleLineItem), min);
+        }
+
+        return min;
     }
 }

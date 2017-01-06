@@ -146,16 +146,21 @@ class BasePlusCommisionEmployeeInput extends JDialog {
         Box buttonBox = Box.createHorizontalBox();
         JButton addEmployee = new JButton("Add");
         addEmployee.addActionListener((e) -> {
-            _14211383_张博康_4_Swing.addEmployee(
-                    new BasePlusCommisionEmployee(
-                            firstNameField.getText(),
-                            lastNameField.getText(),
-                            socialSecurityNumberField.getText(),
-                            Integer.parseInt(grossSalesField.getText()),
-                            Integer.parseInt(commissionRateField.getText()),
-                            Integer.parseInt(baseSalaryField.getText())
-                    ));
-            dispose();
+            try {
+                _14211383_张博康_4_Swing.addEmployee(
+                        new BasePlusCommisionEmployee(
+                                firstNameField.getText(),
+                                lastNameField.getText(),
+                                socialSecurityNumberField.getText(),
+                                Integer.parseInt(grossSalesField.getText()),
+                                Integer.parseInt(commissionRateField.getText()),
+                                Integer.parseInt(baseSalaryField.getText())
+                        ));
+                dispose();
+            } catch (Exception except) {
+                JOptionPane.showMessageDialog(null, "输入格式错误");
+            }
+
         });
         JButton close = new JButton("Conceal");
         close.addActionListener((e) -> {
@@ -228,15 +233,20 @@ class CommisionEmployeeInput extends JDialog {
         Box buttonBox = Box.createHorizontalBox();
         JButton addEmployee = new JButton("Add");
         addEmployee.addActionListener((e) -> {
-            _14211383_张博康_4_Swing.addEmployee(
-                    new CommisionEmployee(
-                            firstNameField.getText(),
-                            lastNameField.getText(),
-                            socialSecurityNumberField.getText(),
-                            Integer.parseInt(grossSalesField.getText()),
-                            Integer.parseInt(commissionRateField.getText())
-                    ));
-            dispose();
+            try {
+                _14211383_张博康_4_Swing.addEmployee(
+                        new CommisionEmployee(
+                                firstNameField.getText(),
+                                lastNameField.getText(),
+                                socialSecurityNumberField.getText(),
+                                Integer.parseInt(grossSalesField.getText()),
+                                Integer.parseInt(commissionRateField.getText())
+                        ));
+                dispose();
+            } catch (Exception except) {
+                JOptionPane.showMessageDialog(null, "输入格式错误");
+            }
+
         });
         JButton close = new JButton("Conceal");
         close.addActionListener((e) -> {

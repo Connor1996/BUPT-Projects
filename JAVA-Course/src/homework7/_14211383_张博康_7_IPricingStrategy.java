@@ -8,6 +8,7 @@ public abstract class _14211383_张博康_7_IPricingStrategy {
     protected String name;
 
     public abstract double getSubTotal(_14211383_张博康_7_SaleLineItem saleLineItem);
+    public abstract String getDiscount();
 
     public String getId() { return id; }
     public String getName() { return name; }

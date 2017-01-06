@@ -10,6 +10,7 @@ import javax.swing.table.TableColumnModel;
 import javax.swing.table.TableModel;
 import java.awt.*;
 import java.awt.geom.Arc2D;
+import java.util.Vector;
 
 public class _14211383_张博康_7_StrategiesUI extends JFrame {
     private _14211383_张博康_7_Controller controller;
@@ -36,7 +37,7 @@ public class _14211383_张博康_7_StrategiesUI extends JFrame {
     }
 
     private void InitAction() {
-
+        // 添加策略按钮
         addButton.addActionListener(e -> {
             try {
                 System.out.println(strategyIdField.getText());
@@ -93,6 +94,7 @@ public class _14211383_张博康_7_StrategiesUI extends JFrame {
             }
         });
 
+        // 更新策略按钮
         updateButton.addActionListener(e -> {
             if (strategyChooseBox.getSelectedIndex() == 0) {
                 JOptionPane.showMessageDialog(null, "未选择更新的策略");
@@ -124,6 +126,7 @@ public class _14211383_张博康_7_StrategiesUI extends JFrame {
             }
         });
 
+        // 删除策略按钮
         deleteButton.addActionListener(e -> {
             int select = strategyTable.getSelectedRow();
             if (select == -1)
@@ -140,7 +143,9 @@ public class _14211383_张博康_7_StrategiesUI extends JFrame {
 
     private void InitUI() {
         setVisible(true);
+        setTitle("管理策略");
         setSize(400, 480);
+        setLocationRelativeTo(null);
         setDefaultCloseOperation(HIDE_ON_CLOSE);
 
         panel1 = new JPanel();
@@ -164,11 +169,9 @@ public class _14211383_张博康_7_StrategiesUI extends JFrame {
         strategyTableModel.addColumn("折扣百分比/每本优惠额度");
         scrollPane1.setViewportView(strategyTable);
         // 加载已有策略
-//        for (controller.getStrategies()) {
-//            strategyTableModel.addRow(new Object[]{
-//
-//            });
-//        }
+        for (Vector<Object> x : controller.getStrategies()) {
+                strategyTableModel.addRow(x);
+        }
 
         final JPanel panel3 = new JPanel();
         panel3.setLayout(new FlowLayout(FlowLayout.CENTER, 5, 5));

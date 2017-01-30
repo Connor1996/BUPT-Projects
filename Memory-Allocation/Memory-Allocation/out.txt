@@ -1,0 +1,930 @@
+dwActiveProcessorMask	15
+dwAllocationGranularity	65536
+dwNumberOfProcessors	4
+dwOemId	0
+dwPageSize	4096
+dwProcessorType	586
+lpMaximumApplicationAddress	7FFEFFFF
+lpMinimumApplicationAddress	00010000
+wProcessorArchitecture	0
+wProcessorLevel	6
+wProcessorRevision	17665
+wReserved	0
+************************************************************************************
+dwAvailPageFile	4294967295
+dwAvailPhys	2147483647
+dwAvailVirtual	2123653120
+dwLength	32
+dwMemoryLoad	44
+dwTotalPageFile	4294967295
+dwTotalPhys	2147483647
+dwTotalVirtual	2147352576
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+AllocationBase	00000000
+AllocationProtect	0
+BaseAddress	00010000
+Protect	1
+RegionSize	9895936
+State	65536
+Type	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dwActiveProcessorMask	15
+dwAllocationGranularity	65536
+dwNumberOfProcessors	4
+dwOemId	0
+dwPageSize	4096
+dwProcessorType	586
+lpMaximumApplicationAddress	7FFEFFFF
+lpMinimumApplicationAddress	00010000
+wProcessorArchitecture	0
+wProcessorLevel	6
+wProcessorRevision	17665
+wReserved	0
+************************************************************************************
+dwAvailPageFile	4294967295
+dwAvailPhys	2147483647
+dwAvailVirtual	2123640832
+dwLength	32
+dwMemoryLoad	44
+dwTotalPageFile	4294967295
+dwTotalPhys	2147483647
+dwTotalVirtual	2147352576
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+AllocationBase	00000000
+AllocationProtect	0
+BaseAddress	00010000
+Protect	1
+RegionSize	9895936
+State	65536
+Type	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dwActiveProcessorMask	15
+dwAllocationGranularity	65536
+dwNumberOfProcessors	4
+dwOemId	0
+dwPageSize	4096
+dwProcessorType	586
+lpMaximumApplicationAddress	7FFEFFFF
+lpMinimumApplicationAddress	00010000
+wProcessorArchitecture	0
+wProcessorLevel	6
+wProcessorRevision	17665
+wReserved	0
+************************************************************************************
+dwAvailPageFile	4294967295
+dwAvailPhys	2147483647
+dwAvailVirtual	2123636736
+dwLength	32
+dwMemoryLoad	44
+dwTotalPageFile	4294967295
+dwTotalPhys	2147483647
+dwTotalVirtual	2147352576
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+AllocationBase	00000000
+AllocationProtect	0
+BaseAddress	00010000
+Protect	1
+RegionSize	9895936
+State	65536
+Type	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dwActiveProcessorMask	15
+dwAllocationGranularity	65536
+dwNumberOfProcessors	4
+dwOemId	0
+dwPageSize	4096
+dwProcessorType	586
+lpMaximumApplicationAddress	7FFEFFFF
+lpMinimumApplicationAddress	00010000
+wProcessorArchitecture	0
+wProcessorLevel	6
+wProcessorRevision	17665
+wReserved	0
+************************************************************************************
+dwAvailPageFile	4294967295
+dwAvailPhys	2147483647
+dwAvailVirtual	2123616256
+dwLength	32
+dwMemoryLoad	44
+dwTotalPageFile	4294967295
+dwTotalPhys	2147483647
+dwTotalVirtual	2147352576
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+AllocationBase	00000000
+AllocationProtect	0
+BaseAddress	00010000
+Protect	1
+RegionSize	9895936
+State	65536
+Type	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dwActiveProcessorMask	15
+dwAllocationGranularity	65536
+dwNumberOfProcessors	4
+dwOemId	0
+dwPageSize	4096
+dwProcessorType	586
+lpMaximumApplicationAddress	7FFEFFFF
+lpMinimumApplicationAddress	00010000
+wProcessorArchitecture	0
+wProcessorLevel	6
+wProcessorRevision	17665
+wReserved	0
+************************************************************************************
+dwAvailPageFile	4294967295
+dwAvailPhys	2147483647
+dwAvailVirtual	2123599872
+dwLength	32
+dwMemoryLoad	44
+dwTotalPageFile	4294967295
+dwTotalPhys	2147483647
+dwTotalVirtual	2147352576
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+AllocationBase	00000000
+AllocationProtect	0
+BaseAddress	00010000
+Protect	1
+RegionSize	9895936
+State	65536
+Type	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dwActiveProcessorMask	15
+dwAllocationGranularity	65536
+dwNumberOfProcessors	4
+dwOemId	0
+dwPageSize	4096
+dwProcessorType	586
+lpMaximumApplicationAddress	7FFEFFFF
+lpMinimumApplicationAddress	00010000
+wProcessorArchitecture	0
+wProcessorLevel	6
+wProcessorRevision	17665
+wReserved	0
+************************************************************************************
+dwAvailPageFile	4294967295
+dwAvailPhys	2147483647
+dwAvailVirtual	2123579392
+dwLength	32
+dwMemoryLoad	45
+dwTotalPageFile	4294967295
+dwTotalPhys	2147483647
+dwTotalVirtual	2147352576
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+AllocationBase	00000000
+AllocationProtect	0
+BaseAddress	00010000
+Protect	1
+RegionSize	9895936
+State	65536
+Type	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dwActiveProcessorMask	15
+dwAllocationGranularity	65536
+dwNumberOfProcessors	4
+dwOemId	0
+dwPageSize	4096
+dwProcessorType	586
+lpMaximumApplicationAddress	7FFEFFFF
+lpMinimumApplicationAddress	00010000
+wProcessorArchitecture	0
+wProcessorLevel	6
+wProcessorRevision	17665
+wReserved	0
+************************************************************************************
+dwAvailPageFile	4294967295
+dwAvailPhys	2147483647
+dwAvailVirtual	2123579392
+dwLength	32
+dwMemoryLoad	45
+dwTotalPageFile	4294967295
+dwTotalPhys	2147483647
+dwTotalVirtual	2147352576
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+AllocationBase	00000000
+AllocationProtect	0
+BaseAddress	00010000
+Protect	1
+RegionSize	9895936
+State	65536
+Type	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dwActiveProcessorMask	15
+dwAllocationGranularity	65536
+dwNumberOfProcessors	4
+dwOemId	0
+dwPageSize	4096
+dwProcessorType	586
+lpMaximumApplicationAddress	7FFEFFFF
+lpMinimumApplicationAddress	00010000
+wProcessorArchitecture	0
+wProcessorLevel	6
+wProcessorRevision	17665
+wReserved	0
+************************************************************************************
+dwAvailPageFile	4294967295
+dwAvailPhys	2147483647
+dwAvailVirtual	2123579392
+dwLength	32
+dwMemoryLoad	45
+dwTotalPageFile	4294967295
+dwTotalPhys	2147483647
+dwTotalVirtual	2147352576
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+AllocationBase	00000000
+AllocationProtect	0
+BaseAddress	00010000
+Protect	1
+RegionSize	9895936
+State	65536
+Type	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dwActiveProcessorMask	15
+dwAllocationGranularity	65536
+dwNumberOfProcessors	4
+dwOemId	0
+dwPageSize	4096
+dwProcessorType	586
+lpMaximumApplicationAddress	7FFEFFFF
+lpMinimumApplicationAddress	00010000
+wProcessorArchitecture	0
+wProcessorLevel	6
+wProcessorRevision	17665
+wReserved	0
+************************************************************************************
+dwAvailPageFile	4294967295
+dwAvailPhys	2147483647
+dwAvailVirtual	2123579392
+dwLength	32
+dwMemoryLoad	45
+dwTotalPageFile	4294967295
+dwTotalPhys	2147483647
+dwTotalVirtual	2147352576
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+AllocationBase	00000000
+AllocationProtect	0
+BaseAddress	00010000
+Protect	1
+RegionSize	9895936
+State	65536
+Type	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dwActiveProcessorMask	15
+dwAllocationGranularity	65536
+dwNumberOfProcessors	4
+dwOemId	0
+dwPageSize	4096
+dwProcessorType	586
+lpMaximumApplicationAddress	7FFEFFFF
+lpMinimumApplicationAddress	00010000
+wProcessorArchitecture	0
+wProcessorLevel	6
+wProcessorRevision	17665
+wReserved	0
+************************************************************************************
+dwAvailPageFile	4294967295
+dwAvailPhys	2147483647
+dwAvailVirtual	2123579392
+dwLength	32
+dwMemoryLoad	45
+dwTotalPageFile	4294967295
+dwTotalPhys	2147483647
+dwTotalVirtual	2147352576
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+AllocationBase	00000000
+AllocationProtect	0
+BaseAddress	00010000
+Protect	1
+RegionSize	9895936
+State	65536
+Type	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dwActiveProcessorMask	15
+dwAllocationGranularity	65536
+dwNumberOfProcessors	4
+dwOemId	0
+dwPageSize	4096
+dwProcessorType	586
+lpMaximumApplicationAddress	7FFEFFFF
+lpMinimumApplicationAddress	00010000
+wProcessorArchitecture	0
+wProcessorLevel	6
+wProcessorRevision	17665
+wReserved	0
+************************************************************************************
+dwAvailPageFile	4294967295
+dwAvailPhys	2147483647
+dwAvailVirtual	2123579392
+dwLength	32
+dwMemoryLoad	44
+dwTotalPageFile	4294967295
+dwTotalPhys	2147483647
+dwTotalVirtual	2147352576
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+AllocationBase	00000000
+AllocationProtect	0
+BaseAddress	00010000
+Protect	1
+RegionSize	9895936
+State	65536
+Type	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dwActiveProcessorMask	15
+dwAllocationGranularity	65536
+dwNumberOfProcessors	4
+dwOemId	0
+dwPageSize	4096
+dwProcessorType	586
+lpMaximumApplicationAddress	7FFEFFFF
+lpMinimumApplicationAddress	00010000
+wProcessorArchitecture	0
+wProcessorLevel	6
+wProcessorRevision	17665
+wReserved	0
+************************************************************************************
+dwAvailPageFile	4294967295
+dwAvailPhys	2147483647
+dwAvailVirtual	2123579392
+dwLength	32
+dwMemoryLoad	44
+dwTotalPageFile	4294967295
+dwTotalPhys	2147483647
+dwTotalVirtual	2147352576
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+AllocationBase	00000000
+AllocationProtect	0
+BaseAddress	00010000
+Protect	1
+RegionSize	9895936
+State	65536
+Type	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dwActiveProcessorMask	15
+dwAllocationGranularity	65536
+dwNumberOfProcessors	4
+dwOemId	0
+dwPageSize	4096
+dwProcessorType	586
+lpMaximumApplicationAddress	7FFEFFFF
+lpMinimumApplicationAddress	00010000
+wProcessorArchitecture	0
+wProcessorLevel	6
+wProcessorRevision	17665
+wReserved	0
+************************************************************************************
+dwAvailPageFile	4294967295
+dwAvailPhys	2147483647
+dwAvailVirtual	2123579392
+dwLength	32
+dwMemoryLoad	43
+dwTotalPageFile	4294967295
+dwTotalPhys	2147483647
+dwTotalVirtual	2147352576
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+AllocationBase	00000000
+AllocationProtect	0
+BaseAddress	00010000
+Protect	1
+RegionSize	9895936
+State	65536
+Type	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dwActiveProcessorMask	15
+dwAllocationGranularity	65536
+dwNumberOfProcessors	4
+dwOemId	0
+dwPageSize	4096
+dwProcessorType	586
+lpMaximumApplicationAddress	7FFEFFFF
+lpMinimumApplicationAddress	00010000
+wProcessorArchitecture	0
+wProcessorLevel	6
+wProcessorRevision	17665
+wReserved	0
+************************************************************************************
+dwAvailPageFile	4294967295
+dwAvailPhys	2147483647
+dwAvailVirtual	2123579392
+dwLength	32
+dwMemoryLoad	43
+dwTotalPageFile	4294967295
+dwTotalPhys	2147483647
+dwTotalVirtual	2147352576
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+AllocationBase	00000000
+AllocationProtect	0
+BaseAddress	00010000
+Protect	1
+RegionSize	9895936
+State	65536
+Type	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dwActiveProcessorMask	15
+dwAllocationGranularity	65536
+dwNumberOfProcessors	4
+dwOemId	0
+dwPageSize	4096
+dwProcessorType	586
+lpMaximumApplicationAddress	7FFEFFFF
+lpMinimumApplicationAddress	00010000
+wProcessorArchitecture	0
+wProcessorLevel	6
+wProcessorRevision	17665
+wReserved	0
+************************************************************************************
+dwAvailPageFile	4294967295
+dwAvailPhys	2147483647
+dwAvailVirtual	2123579392
+dwLength	32
+dwMemoryLoad	43
+dwTotalPageFile	4294967295
+dwTotalPhys	2147483647
+dwTotalVirtual	2147352576
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+AllocationBase	00000000
+AllocationProtect	0
+BaseAddress	00010000
+Protect	1
+RegionSize	9895936
+State	65536
+Type	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dwActiveProcessorMask	15
+dwAllocationGranularity	65536
+dwNumberOfProcessors	4
+dwOemId	0
+dwPageSize	4096
+dwProcessorType	586
+lpMaximumApplicationAddress	7FFEFFFF
+lpMinimumApplicationAddress	00010000
+wProcessorArchitecture	0
+wProcessorLevel	6
+wProcessorRevision	17665
+wReserved	0
+************************************************************************************
+dwAvailPageFile	4294967295
+dwAvailPhys	2147483647
+dwAvailVirtual	2123579392
+dwLength	32
+dwMemoryLoad	43
+dwTotalPageFile	4294967295
+dwTotalPhys	2147483647
+dwTotalVirtual	2147352576
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+AllocationBase	00000000
+AllocationProtect	0
+BaseAddress	00010000
+Protect	1
+RegionSize	9895936
+State	65536
+Type	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dwActiveProcessorMask	15
+dwAllocationGranularity	65536
+dwNumberOfProcessors	4
+dwOemId	0
+dwPageSize	4096
+dwProcessorType	586
+lpMaximumApplicationAddress	7FFEFFFF
+lpMinimumApplicationAddress	00010000
+wProcessorArchitecture	0
+wProcessorLevel	6
+wProcessorRevision	17665
+wReserved	0
+************************************************************************************
+dwAvailPageFile	4294967295
+dwAvailPhys	2147483647
+dwAvailVirtual	2123579392
+dwLength	32
+dwMemoryLoad	43
+dwTotalPageFile	4294967295
+dwTotalPhys	2147483647
+dwTotalVirtual	2147352576
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+AllocationBase	00000000
+AllocationProtect	0
+BaseAddress	00010000
+Protect	1
+RegionSize	9895936
+State	65536
+Type	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dwActiveProcessorMask	15
+dwAllocationGranularity	65536
+dwNumberOfProcessors	4
+dwOemId	0
+dwPageSize	4096
+dwProcessorType	586
+lpMaximumApplicationAddress	7FFEFFFF
+lpMinimumApplicationAddress	00010000
+wProcessorArchitecture	0
+wProcessorLevel	6
+wProcessorRevision	17665
+wReserved	0
+************************************************************************************
+dwAvailPageFile	4294967295
+dwAvailPhys	2147483647
+dwAvailVirtual	2123579392
+dwLength	32
+dwMemoryLoad	43
+dwTotalPageFile	4294967295
+dwTotalPhys	2147483647
+dwTotalVirtual	2147352576
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+AllocationBase	00000000
+AllocationProtect	0
+BaseAddress	00010000
+Protect	1
+RegionSize	9895936
+State	65536
+Type	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dwActiveProcessorMask	15
+dwAllocationGranularity	65536
+dwNumberOfProcessors	4
+dwOemId	0
+dwPageSize	4096
+dwProcessorType	586
+lpMaximumApplicationAddress	7FFEFFFF
+lpMinimumApplicationAddress	00010000
+wProcessorArchitecture	0
+wProcessorLevel	6
+wProcessorRevision	17665
+wReserved	0
+************************************************************************************
+dwAvailPageFile	4294967295
+dwAvailPhys	2147483647
+dwAvailVirtual	2123579392
+dwLength	32
+dwMemoryLoad	43
+dwTotalPageFile	4294967295
+dwTotalPhys	2147483647
+dwTotalVirtual	2147352576
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+AllocationBase	00000000
+AllocationProtect	0
+BaseAddress	00010000
+Protect	1
+RegionSize	9895936
+State	65536
+Type	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dwActiveProcessorMask	15
+dwAllocationGranularity	65536
+dwNumberOfProcessors	4
+dwOemId	0
+dwPageSize	4096
+dwProcessorType	586
+lpMaximumApplicationAddress	7FFEFFFF
+lpMinimumApplicationAddress	00010000
+wProcessorArchitecture	0
+wProcessorLevel	6
+wProcessorRevision	17665
+wReserved	0
+************************************************************************************
+dwAvailPageFile	4294967295
+dwAvailPhys	2147483647
+dwAvailVirtual	2123579392
+dwLength	32
+dwMemoryLoad	43
+dwTotalPageFile	4294967295
+dwTotalPhys	2147483647
+dwTotalVirtual	2147352576
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+AllocationBase	00000000
+AllocationProtect	0
+BaseAddress	00010000
+Protect	1
+RegionSize	9895936
+State	65536
+Type	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dwActiveProcessorMask	15
+dwAllocationGranularity	65536
+dwNumberOfProcessors	4
+dwOemId	0
+dwPageSize	4096
+dwProcessorType	586
+lpMaximumApplicationAddress	7FFEFFFF
+lpMinimumApplicationAddress	00010000
+wProcessorArchitecture	0
+wProcessorLevel	6
+wProcessorRevision	17665
+wReserved	0
+************************************************************************************
+dwAvailPageFile	4294967295
+dwAvailPhys	2147483647
+dwAvailVirtual	2123579392
+dwLength	32
+dwMemoryLoad	43
+dwTotalPageFile	4294967295
+dwTotalPhys	2147483647
+dwTotalVirtual	2147352576
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+AllocationBase	00000000
+AllocationProtect	0
+BaseAddress	00010000
+Protect	1
+RegionSize	9895936
+State	65536
+Type	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dwActiveProcessorMask	15
+dwAllocationGranularity	65536
+dwNumberOfProcessors	4
+dwOemId	0
+dwPageSize	4096
+dwProcessorType	586
+lpMaximumApplicationAddress	7FFEFFFF
+lpMinimumApplicationAddress	00010000
+wProcessorArchitecture	0
+wProcessorLevel	6
+wProcessorRevision	17665
+wReserved	0
+************************************************************************************
+dwAvailPageFile	4294967295
+dwAvailPhys	2147483647
+dwAvailVirtual	2123579392
+dwLength	32
+dwMemoryLoad	43
+dwTotalPageFile	4294967295
+dwTotalPhys	2147483647
+dwTotalVirtual	2147352576
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+AllocationBase	00000000
+AllocationProtect	0
+BaseAddress	00010000
+Protect	1
+RegionSize	9895936
+State	65536
+Type	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dwActiveProcessorMask	15
+dwAllocationGranularity	65536
+dwNumberOfProcessors	4
+dwOemId	0
+dwPageSize	4096
+dwProcessorType	586
+lpMaximumApplicationAddress	7FFEFFFF
+lpMinimumApplicationAddress	00010000
+wProcessorArchitecture	0
+wProcessorLevel	6
+wProcessorRevision	17665
+wReserved	0
+************************************************************************************
+dwAvailPageFile	4294967295
+dwAvailPhys	2147483647
+dwAvailVirtual	2123579392
+dwLength	32
+dwMemoryLoad	43
+dwTotalPageFile	4294967295
+dwTotalPhys	2147483647
+dwTotalVirtual	2147352576
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+AllocationBase	00000000
+AllocationProtect	0
+BaseAddress	00010000
+Protect	1
+RegionSize	9895936
+State	65536
+Type	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dwActiveProcessorMask	15
+dwAllocationGranularity	65536
+dwNumberOfProcessors	4
+dwOemId	0
+dwPageSize	4096
+dwProcessorType	586
+lpMaximumApplicationAddress	7FFEFFFF
+lpMinimumApplicationAddress	00010000
+wProcessorArchitecture	0
+wProcessorLevel	6
+wProcessorRevision	17665
+wReserved	0
+************************************************************************************
+dwAvailPageFile	4294967295
+dwAvailPhys	2147483647
+dwAvailVirtual	2123579392
+dwLength	32
+dwMemoryLoad	43
+dwTotalPageFile	4294967295
+dwTotalPhys	2147483647
+dwTotalVirtual	2147352576
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+AllocationBase	00000000
+AllocationProtect	0
+BaseAddress	00010000
+Protect	1
+RegionSize	9895936
+State	65536
+Type	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dwActiveProcessorMask	15
+dwAllocationGranularity	65536
+dwNumberOfProcessors	4
+dwOemId	0
+dwPageSize	4096
+dwProcessorType	586
+lpMaximumApplicationAddress	7FFEFFFF
+lpMinimumApplicationAddress	00010000
+wProcessorArchitecture	0
+wProcessorLevel	6
+wProcessorRevision	17665
+wReserved	0
+************************************************************************************
+dwAvailPageFile	4294967295
+dwAvailPhys	2147483647
+dwAvailVirtual	2123579392
+dwLength	32
+dwMemoryLoad	43
+dwTotalPageFile	4294967295
+dwTotalPhys	2147483647
+dwTotalVirtual	2147352576
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+AllocationBase	00000000
+AllocationProtect	0
+BaseAddress	00010000
+Protect	1
+RegionSize	9895936
+State	65536
+Type	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dwActiveProcessorMask	15
+dwAllocationGranularity	65536
+dwNumberOfProcessors	4
+dwOemId	0
+dwPageSize	4096
+dwProcessorType	586
+lpMaximumApplicationAddress	7FFEFFFF
+lpMinimumApplicationAddress	00010000
+wProcessorArchitecture	0
+wProcessorLevel	6
+wProcessorRevision	17665
+wReserved	0
+************************************************************************************
+dwAvailPageFile	4294967295
+dwAvailPhys	2147483647
+dwAvailVirtual	2123579392
+dwLength	32
+dwMemoryLoad	43
+dwTotalPageFile	4294967295
+dwTotalPhys	2147483647
+dwTotalVirtual	2147352576
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+AllocationBase	00000000
+AllocationProtect	0
+BaseAddress	00010000
+Protect	1
+RegionSize	9895936
+State	65536
+Type	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dwActiveProcessorMask	15
+dwAllocationGranularity	65536
+dwNumberOfProcessors	4
+dwOemId	0
+dwPageSize	4096
+dwProcessorType	586
+lpMaximumApplicationAddress	7FFEFFFF
+lpMinimumApplicationAddress	00010000
+wProcessorArchitecture	0
+wProcessorLevel	6
+wProcessorRevision	17665
+wReserved	0
+************************************************************************************
+dwAvailPageFile	4294967295
+dwAvailPhys	2147483647
+dwAvailVirtual	2123591680
+dwLength	32
+dwMemoryLoad	43
+dwTotalPageFile	4294967295
+dwTotalPhys	2147483647
+dwTotalVirtual	2147352576
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+AllocationBase	00000000
+AllocationProtect	0
+BaseAddress	00010000
+Protect	1
+RegionSize	9895936
+State	65536
+Type	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dwActiveProcessorMask	15
+dwAllocationGranularity	65536
+dwNumberOfProcessors	4
+dwOemId	0
+dwPageSize	4096
+dwProcessorType	586
+lpMaximumApplicationAddress	7FFEFFFF
+lpMinimumApplicationAddress	00010000
+wProcessorArchitecture	0
+wProcessorLevel	6
+wProcessorRevision	17665
+wReserved	0
+************************************************************************************
+dwAvailPageFile	4294967295
+dwAvailPhys	2147483647
+dwAvailVirtual	2123595776
+dwLength	32
+dwMemoryLoad	43
+dwTotalPageFile	4294967295
+dwTotalPhys	2147483647
+dwTotalVirtual	2147352576
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+AllocationBase	00000000
+AllocationProtect	0
+BaseAddress	00010000
+Protect	1
+RegionSize	9895936
+State	65536
+Type	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dwActiveProcessorMask	15
+dwAllocationGranularity	65536
+dwNumberOfProcessors	4
+dwOemId	0
+dwPageSize	4096
+dwProcessorType	586
+lpMaximumApplicationAddress	7FFEFFFF
+lpMinimumApplicationAddress	00010000
+wProcessorArchitecture	0
+wProcessorLevel	6
+wProcessorRevision	17665
+wReserved	0
+************************************************************************************
+dwAvailPageFile	4294967295
+dwAvailPhys	2147483647
+dwAvailVirtual	2123616256
+dwLength	32
+dwMemoryLoad	43
+dwTotalPageFile	4294967295
+dwTotalPhys	2147483647
+dwTotalVirtual	2147352576
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+AllocationBase	00000000
+AllocationProtect	0
+BaseAddress	00010000
+Protect	1
+RegionSize	9895936
+State	65536
+Type	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dwActiveProcessorMask	15
+dwAllocationGranularity	65536
+dwNumberOfProcessors	4
+dwOemId	0
+dwPageSize	4096
+dwProcessorType	586
+lpMaximumApplicationAddress	7FFEFFFF
+lpMinimumApplicationAddress	00010000
+wProcessorArchitecture	0
+wProcessorLevel	6
+wProcessorRevision	17665
+wReserved	0
+************************************************************************************
+dwAvailPageFile	4294967295
+dwAvailPhys	2147483647
+dwAvailVirtual	2123632640
+dwLength	32
+dwMemoryLoad	43
+dwTotalPageFile	4294967295
+dwTotalPhys	2147483647
+dwTotalVirtual	2147352576
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+AllocationBase	00000000
+AllocationProtect	0
+BaseAddress	00010000
+Protect	1
+RegionSize	9895936
+State	65536
+Type	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dwActiveProcessorMask	15
+dwAllocationGranularity	65536
+dwNumberOfProcessors	4
+dwOemId	0
+dwPageSize	4096
+dwProcessorType	586
+lpMaximumApplicationAddress	7FFEFFFF
+lpMinimumApplicationAddress	00010000
+wProcessorArchitecture	0
+wProcessorLevel	6
+wProcessorRevision	17665
+wReserved	0
+************************************************************************************
+dwAvailPageFile	4294967295
+dwAvailPhys	2147483647
+dwAvailVirtual	2123653120
+dwLength	32
+dwMemoryLoad	43
+dwTotalPageFile	4294967295
+dwTotalPhys	2147483647
+dwTotalVirtual	2147352576
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+AllocationBase	00000000
+AllocationProtect	0
+BaseAddress	00010000
+Protect	1
+RegionSize	9895936
+State	65536
+Type	0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

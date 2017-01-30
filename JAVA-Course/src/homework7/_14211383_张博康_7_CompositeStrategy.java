@@ -13,11 +13,11 @@ public abstract class _14211383_张博康_7_CompositeStrategy extends  _14211383
 
         // 生成序列化信息
         for (_14211383_张博康_7_IPricingStrategy strategy : strategies) {
-            stringBuilder.append(strategy.getName());
-            stringBuilder.append("|");
+            stringBuilder.append(strategy.getId());
+            stringBuilder.append(" | ");
         }
         // 删除末尾多余的符号
-        stringBuilder.deleteCharAt(stringBuilder.length() - 1);
+        stringBuilder.deleteCharAt(stringBuilder.length() - 3);
         return stringBuilder.toString();
     }
 

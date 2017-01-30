@@ -28,7 +28,7 @@ public class _14211383_张博康_7_ShoppingCarUI  extends JFrame implements _142
         for (Vector<Object> row : sale.getTable()) {
             shoppingTableModel.addRow(row);
         }
-        totalLabel.setText("总价： " + sale.getTotal() + " 元");
+        totalLabel.setText("总价（优惠后）： " + sale.getTotal() + " 元");
     }
 
     public void InitUI() {
@@ -44,7 +44,7 @@ public class _14211383_张博康_7_ShoppingCarUI  extends JFrame implements _142
         panel2.setLayout(new GridBagLayout());
         panel1.add(panel2, BorderLayout.CENTER);
         totalLabel = new JLabel();
-        totalLabel.setText("总价： 0 元");
+        totalLabel.setText("总价（优惠后）： 0 元");
         GridBagConstraints gbc;
         gbc = new GridBagConstraints();
         gbc.gridx = 3;

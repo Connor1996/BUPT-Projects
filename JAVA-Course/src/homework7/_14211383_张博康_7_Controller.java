@@ -43,7 +43,7 @@ public class _14211383_张博康_7_Controller {
 
         // 按“|”分割策略名
         for (String strategyId : components.split("\\|")) {
-            _14211383_张博康_7_IPricingStrategy strategy = strategyCatalog.getStrategy(strategyId);
+            _14211383_张博康_7_IPricingStrategy strategy = strategyCatalog.getStrategy(strategyId.trim());
             if (strategy != null)
                 compositeStrategy.add(strategy);
             else
